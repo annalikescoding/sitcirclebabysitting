@@ -1,0 +1,249 @@
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: lavender; 
+}
+
+/* STYLE TEXT */
+
+#title {
+  color: mediumpurple;
+  text-align: center;
+  font-size: 7em;
+  font-family: Times New Roman;
+  text-shadow: 3px -2px 1px plum;
+  margin: 0.5em;
+  margin-bottom: 0.1em;
+}
+
+#homeinfo {
+  color: #7e78e6; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3em;
+  text-shadow: 3px -2px 3px plum;
+  text-align: right;
+  margin-right: 3em;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+#forminfo {
+  color: #7e78e6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 3em;
+  text-shadow: 3px -2px 3px plum;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#sitterinfo {
+  color: #7e78e6; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 2em;
+  text-shadow: 3px -2px 3px plum;
+  text-align: right;
+  margin-right: 5em;
+  margin-top: 4em;
+  margin-left: 3em;
+}
+
+#sittername {
+  color: mediumpurple;
+  text-align: left;
+  font-size: 3.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 4px -1px 1px plum;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  padding-left: 3em;
+  background-color: thistle;
+}
+
+#contactinfo {
+  color: mediumpurple;
+  text-align: right;
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+}
+
+#googleform {
+  margin-left: 40em;
+}
+
+
+/* STYLE IMAGES */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+}
+
+
+#homepic {
+  width: 40em;
+  margin-top: 2em;
+  margin-left: 4em;
+  border-radius: 10px;
+  border: 5px solid thistle;
+}
+
+#annapic {
+  width: 50%;
+  height: 50%;
+  margin-left: 15em;
+  border-radius: 10px;
+  border: 5px solid thistle;
+}
+
+#ellapic {
+  width: 17%;
+  height: 17%;
+  margin-left: 15em;
+  border-radius: 10px;
+  border: 5px solid thistle;
+  margin-bottom: 1em;
+}
+
+/* STYLE NAV BAR */
+
+ul {
+  list-style-type: none;
+  background-color: thistle;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+   display: inline;
+   float: right;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 1.2em;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: mediumpurple;
+}
+
+li a:hover {
+  background-color: plum;
+}
+
+/* STYLE BUTTONS */
+
+
+/* ADD MORE! */
+
+@media screen and (max-width: 1500px) {
+
+  #title {
+    font-size: 5em;
+  }
+
+  #sitterinfo {
+    margin-top: 3em;
+  }
+  
+  #googleform {
+    margin-left: 25em;
+  }
+
+  #annapic {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .flex-container{
+    flex-wrap: wrap;
+  }
+
+  .flex-item {
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  #title {
+    font-size: 3em;
+    text-shadow: 2px -1px 1px plum;
+  }
+
+  #homepic {
+    margin-left: 2.5em;
+    width: 20em;
+  }
+
+  #homeinfo {
+    font-size: 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 2em;
+    text-align: center;
+  }
+
+  #contactinfo {
+    font-size: 1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  #annapic {
+    width: 60%;
+    margin-left: 5em;
+  }
+
+  #ellapic {
+    width: 60%;
+    margin-left: 5em
+  }
+
+  #sittername {
+    font-size: 2.5em;
+    text-shadow: 2px -1px 1px plum;
+    margin-top: 2em;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #sitterinfo {
+    font-size: 1.5em;
+    margin: 1em;
+    text-align: center;
+  }
+
+  #prices {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  #forminfo {
+    font-size: 1.5em;
+    margin: 1em;
+  }
+
+  #googleform {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 100%;
+  }
+
+  .nav {
+    li a {
+      padding: 0.5em;
+    }
+  }
