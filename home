@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>Sit Circle Babysitting</title>
+    <meta charset="utf-8" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+
+  </head>
+
+  <div class= "nav">
+    <nav>
+    <ul>
+        <li><a href="bookus.html">BOOK US!</a></li>
+        <li><a href="sitters.html">SITTERS</a></li>
+        <li><a href="index.html">HOME</a></li>   
+      </ul>
+    </nav>
+  </div>
+  
+  <body>
+    
+    <h1 id= "title">SIT CIRCLE BABYSITTING</h1>
+    
+    <div class="flex-container">
+
+      <div class="flex-item">
+        <img id ="homepic" src="assets/logo.jpg" >
+      </div> 
+
+        <p id= "homeinfo">
+          A babysitting service based in Castro Valley, run by high schoolers.
+        </p>
+
+      </div>
+      
+    </div>
+
+    <p id = contactinfo > 
+      @sitcirclebabysitting@gmail.com
+    </p>
+    
+  </body>
+</html>
