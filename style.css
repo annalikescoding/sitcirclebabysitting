@@ -246,4 +246,16 @@ li a:hover {
     li a {
       padding: 0.5em;
     }
+   li {
+    display: block;
+    float: center;
+    margin-left: 0.5px;
+   }
+
+  li a {
+    padding: 0.3em;
+    font-size: 1.3em;
+    margin-right: 0.5em;
+    margin-left: 0.2em;
+   }
   }
