@@ -1,3 +1,4 @@
+/* STYLE SECTIONING TAGS */
 * { /* Reset the space of the webpage */
    margin: 0px;
    padding: 0px;
@@ -38,8 +39,8 @@ body {
   text-shadow: 3px -2px 3px plum;
   text-align: center;
   margin: 1em;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 #sitterinfo {
@@ -50,7 +51,7 @@ body {
   text-shadow: 3px -2px 3px plum;
   text-align: right;
   margin-right: 5em;
-  margin-top: 4em;
+  margin-top: 3em;
   margin-left: 3em;
 }
 
@@ -78,6 +79,14 @@ body {
   margin-right: 4em;
 }
 
+#contactinfo {
+  color: mediumpurple;
+  text-align: right;
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 0.5em;
+  margin-right: 1em;
+}
 
 #googleform {
   display: block;
@@ -166,19 +175,35 @@ li a:hover {
 
 /* ADD MORE! */
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1700px) {
 
   #title {
     font-size: 5em;
   }
 
   #sitterinfo {
-    margin-top: 3em;
+    margin-top: 2em;
     font-size: 1.8em;
   }
 
   #annapic {
-    width: 90%;
+    width: 80%;
+  }
+
+  #homepic {
+    width: 37em;
+  }
+  
+  #instalogo {
+    margin-top: 0em;
+    width: 8em;
+    float: right;
+  }
+
+  #emaillogo {
+    margin-top: 0em;
+    width: 5.6em;
+    float: right
   }
 }
 
@@ -209,6 +234,7 @@ li a:hover {
     margin-top: 2em;
     text-align: center;
   }
+
 
   #annapic {
     width: 60%;
@@ -268,18 +294,21 @@ li a:hover {
 
   .nav {
     li a {
-      padding: 0.5em;
+      padding: 0.3em;
     }
-   li {
+  }
+
+
+  li {
     display: block;
     float: center;
     margin-left: 0.5px;
-   }
+  }
 
   li a {
     padding: 0.3em;
     font-size: 1.3em;
     margin-right: 1em;
     margin-left: 0.2em;
-   }
   }
+}
