@@ -80,14 +80,13 @@ body {
 
 
 #googleform {
-  margin-left: 40em;
-  margin-right: 40em;
+  display: block;
+  margin: 0 auto;
 }
 
 #googlecalendar {
-  border-radius: 20px;
-  margin-left: 35em;
-  margin-right: 35em;
+  display: block;
+  margin: 0 auto;
 }
 
 /* STYLE IMAGES */
@@ -119,8 +118,8 @@ body {
 }
 
 #annapic {
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
   margin-left: 15em;
   border-radius: 10px;
   border: 5px solid thistle;
@@ -176,16 +175,6 @@ li a:hover {
   #sitterinfo {
     margin-top: 3em;
     font-size: 1.8em;
-  }
-  
-  #googleform {
-    margin-left: 25em;
-    margin-right: 25em;
-  }
-
-  #googlecalendar {
-    margin-left: 20em;
-    margin-right: 20em;
   }
 
   #annapic {
