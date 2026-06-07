@@ -126,15 +126,7 @@ body {
   border: 5px solid thistle;
 }
 
-#annapic {
-  width: 60%;
-  height: 60%;
-  margin-left: 15em;
-  border-radius: 10px;
-  border: 5px solid thistle;
-}
-
-#ellapic {
+#babysitterpic {
   width: 17%;
   height: 17%;
   margin-left: 15em;
@@ -186,10 +178,6 @@ li a:hover {
     font-size: 1.8em;
   }
 
-  #annapic {
-    width: 80%;
-  }
-
   #homepic {
     width: 37em;
   }
@@ -235,16 +223,11 @@ li a:hover {
     text-align: center;
   }
 
-
-  #annapic {
-    width: 60%;
-    margin-left: 5em;
-  }
-
-  #ellapic {
+  #babysitterpic {
     width: 60%;
     margin-left: 5em
   }
+
 
   #sittername {
     font-size: 2.5em;
